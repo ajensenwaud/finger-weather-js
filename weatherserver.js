@@ -20,6 +20,6 @@ var server = net.createServer(function(socket) {
 		}
   });
 }); 
-var TCP_PORT = 1079; 
+var TCP_PORT = 79; 
 var TCP_ADDRESS = '127.0.0.1';
 server.listen(TCP_PORT, TCP_ADDRESS);
